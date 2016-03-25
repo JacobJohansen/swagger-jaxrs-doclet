@@ -166,8 +166,7 @@ public class DocletOptions {
 			} else if (option[0].equals("-disableDeprecatedModelClassExclusion")) {
 				parsedOptions.excludeDeprecatedModelClasses = false;
 			} else if (option[0].equals("-customDeprecatedAnnotation")) {
-                ParserHelper.addCustomDeprecatedAnnotation(asList(copyOfRange(option, 1, option.length)));
-
+				ParserHelper.addCustomDeprecatedAnnotation(asList(copyOfRange(option, 1, option.length)));
             }else if (option[0].equals("-profileMode")) {
 				parsedOptions.profileMode = true;
 
