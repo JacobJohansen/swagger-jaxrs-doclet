@@ -25,8 +25,8 @@
 
 	<modules>
 		<module>swagger-doclet</module>
-		<module>swagger-doclet-sample-dropwizard</module>
-		<module>swagger-doclet-sample-jersey2</module>
+		<!--<module>swagger-doclet-sample-dropwizard</module>-->
+		<!--<module>swagger-doclet-sample-jersey2</module>-->
 	</modules>
 
 	<developers>
