@@ -263,6 +263,7 @@
 				<version>2.5</version>
 				<configuration>
 					<autoVersionSubmodules>true</autoVersionSubmodules>
+					<remoteTagging>false</remoteTagging>
 					<mavenExecutorId>forked-path</mavenExecutorId>
 					<tagNameFormat>v@{project.version}</tagNameFormat>
 					<preparationGoals>clean test</preparationGoals>
