@@ -301,7 +301,7 @@
 				<extensions>true</extensions>
 				<configuration>
 					<serverId>vieqeus-nexus-third-party</serverId>
-					<nexusUrl>http://nexus.virginpulse.com:8081/nexus/content/repositories/thirdparty</nexusUrl>
+					<nexusUrl>http://nexus.virginpulse.com:8081/nexus/content/repositories/thirdparty/</nexusUrl>
 					<autoReleaseAfterClose>false</autoReleaseAfterClose>
 				</configuration>
 			</plugin>
